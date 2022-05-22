@@ -18,7 +18,6 @@ for file in file_names:
             file_dict[count] = [file]
 
 file_dict = dict(sorted(file_dict.items())) #сортируем словарь по ключам
-print(file_dict)
 
 with open(os.path.join(BASE_PATH, DIR_NAME, 'new_txt'), 'a') as new_txt:
     for count, files in file_dict.items():

@@ -37,7 +37,5 @@ def get_shop_list_by_dishes(dishes, person_count, book):
     return order_dict
 
 
-
 a = get_shop_list_by_dishes(['Омлет', 'фахитос'], 2, cook_book)
 pprint(a)
-
